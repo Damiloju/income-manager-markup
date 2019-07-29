@@ -102,6 +102,8 @@ footer a {
 
 footer a:hover {
 	text-decoration: underline;
+	color: lightcoral;
+	font-weight: bold;
 }
 
 /*footer styles end*/
