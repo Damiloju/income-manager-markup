@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Income manager</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<span class="navbar-toggle" id="js-navbar-toggle">
+					<i class="fa fa-bars"></i>
+				</span>
+				<a href="#" class="logo">Logo</a>
+				<ul class="menu" id="js-menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">History</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<p>Main content Area</p>
+		</main>
+
+		<aside>
+			<p>Aside</p>
+		</aside>
+
+		<footer>
+			<p>
+				<a href="https://twitter.com/yusufdamiloju" target="_blank"
+					>@yusufdamiloju</a
+				>
+				&copy; 2019
+			</p>
+		</footer>
+
+		<script>
+			let mainNav = document.getElementById("js-menu");
+			let navBarToggle = document.getElementById("js-navbar-toggle");
+
+			navBarToggle.addEventListener("click", function() {
+				mainNav.classList.toggle("active");
+			});
+		</script>
+	</body>
+</html>
